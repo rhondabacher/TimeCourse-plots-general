@@ -1,5 +1,5 @@
 library(shiny)
-
+options(shiny.maxRequestSize=3000*1024^2)
 shinyUI(fluidPage(
   
   titlePanel("Plot genes from any time course experiment:"),
